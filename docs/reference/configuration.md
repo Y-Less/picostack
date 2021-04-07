@@ -192,6 +192,9 @@ T(Compose("todo-app"));
 T(Compose("world-domination-scheme"));
 ```
 
+The name is also used as the path within vault at which to access secrets.  The above
+would look for secrets in `kv/<hostname>/my_app`.
+
 ### The `E` Function
 
 | Argument | Type (TypeScript notation) | Purpose                                       |
